@@ -8,3 +8,8 @@
 
 * Used the mini-batch version of Pegasos algorithm and used a batch size of 100 in SGD implementation.
 * Extended the SVM formulation for a binary classification problem. In order to extend this to the multi-class setting, we train a model on each pair classes to get k:2 combinations of classifiers ,k being the number of classes. During prediction time, we output the classifier which has the maximum number of wins among all the classifiers. You can read more about one-vs-one classifier setting at the [following link](https://en.wikipedia.org/wiki/Multiclass_classification). Classified the given MNIST dataset and reported train and test accuracy for C = 1:0. In case of ties, choosen the label with the highest digit value.
+
+# Author 
+ * [Harshit Monish](https://github.com/harshitmonish)
+ 
+## Course Project Under [Prof. Parag Singla](http://www.cse.iitd.ernet.in/~parags/)
